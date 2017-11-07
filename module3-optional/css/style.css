@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #111111;
+}
+
+.navbar-header a {
+    color: white !important;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.elem {
+    border: 1px;
+    background-color: grey;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+.elem section {
+    padding: 5px 20px;
+}
+
+.elem a {
+    color: white;
+}
+
+.elem p {
+    padding: 5px 20px;
+}
+
+@media (max-width: 768px) {
+    #navbar-menu {
+        background-color: grey;
+    }
+    #navbar-menu .navbar-nav>li>a {
+        color: white;
+    }
+}
